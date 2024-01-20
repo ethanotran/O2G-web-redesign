@@ -1,5 +1,7 @@
 body {
-    margin: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
 }
 .p1 {
     width: 100%;
@@ -10,14 +12,25 @@ body {
     float: left;
     clear: none;
   }
+  .logo {
+    mix-blend-mode: multiply;
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+  }
+
+  
   h1 {
     font-family: century-gothic, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 48px;
-    line-height: 58.85px;
+    line-height: 20px;
     color: antiquewhite;
     text-align: left;
     vertical-align: bottom;
+    position: relative;
+    bottom: 120px;
+    left: 50px;
   }
   h3 {
     font-family: century-gothic, sans-serif;
@@ -27,6 +40,47 @@ body {
     color: rgba(255, 255, 255, 1);
     text-align: left;
     vertical-align: bottom;
+    position: relative;
+    top: 20px;
+    left: 50px;
+  }
+  .about {
+    text-align: right;
+    font-family: century-gothic;
+    color: antiquewhite;
+    position: relative;
+    right: 500px;
+    font-size: small;
+    bottom: 435px;
+
+  }
+
+  .faq {
+    text-align: right;
+    font-size: small;
+    font-family: century-gothic;
+    color: antiquewhite;
+    position: relative;
+    right: 380px;
+    bottom: 468px;
+
+
+  }
+
+  .button {
+    background-color: #ffda56; /* Green */
+    border: none;
+    color: black;
+    font-family: century-gothic, sans-serif;
+    font-weight: bolder;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 1000px;
+    bottom: 520px;
   }
   
 
@@ -44,8 +98,6 @@ body {
     height: 100vh;
     float: left;
     clear: none;
-  }
-  .p2items {
     align-items: center;
   }
 
@@ -53,23 +105,25 @@ body {
     font-family: century-gothic, sans-serif;
     font-weight: bold;
     line-height: 60px;
-    top: 1370px;
-    left:150px;
-    font-size: 48px;
+    font-size: 32px;
     color: antiquewhite;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    left: 50px;
+
   }
   .container {
     display: flex; 
     color: antiquewhite;
   }
   .fishing{
-    height: 423px;
-    width: 774px;
-    top: 1377px;
-    left: 920px;
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 40%;
+    width: 40%;
+    float: right;
+    position: relative;
+    bottom: 240px;
+    right: 50px;
   
   }
 
@@ -77,12 +131,38 @@ body {
     height: 305px;
     width: 398px;
     float: right;
+    position: relative;
+    bottom: 260px;
+    right: 50px;
 
   }
   .phones{
-    height: 387px;
-    width: 344 px;
+    height: 70%;
+    width: 14%;
     float: right;
+    position: relative;
+    bottom: 380px;
+    right: 380px;
+    
+
+  }
+  .phones2{
+    height: 70%;
+    width: 14%;
+    float: right;
+    position: relative;
+    bottom: 380px;
+    left: 60px;
+    
+
+  }
+  .people{
+    height: 40%;
+    width: 40%;
+    float: right;
+    position: relative;
+    bottom: 230px;
+    right: 50px;
 
   }
   .Flex {
@@ -92,34 +172,37 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
+    top: 20px;
+    left: 50px;
 }
 
 .box-transparent{
     position: relative;
-    line-height: 20px;
+    line-height: 30px;
     color: antiquewhite;
     background-color: gray;
-    opacity: 0.75;
-    width: 50%;
+    opacity: 0.5;
+    width: 40%;
     padding: 20px;
     border-bottom: solid 1px white;
     font-family: century-gothic, sans-serif;
 }
 .Flex-item2 {
   position: relative;
-  line-height: 20px;
+  line-height: 30px;
   color: antiquewhite;
   background-color: gray;
   opacity: 0.5;
-  width: 50%;
+  width: 43.15%;
 }
 .Flex-item3 {
   position: relative;
-  line-height: 20px;
+  line-height: 30px;
   color: antiquewhite;
   background-color: gray;
   opacity: 0.5;
-  width: 46.85%;
+  width: 40%;
   border-bottom: solid 1px white;
 }
 
